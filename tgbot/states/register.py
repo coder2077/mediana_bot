@@ -112,7 +112,7 @@ async def subscribe(call: types.CallbackQuery, repo: SQLAlchemyRepos, state: FSM
 						user = await user_repo.get_user(user_id=user_id)
 						if user:
 							await user_repo.update_user(user_id=user_id, data={"mediana": 10})
-							await call.message.answer("🎉 Tabrilaymiz, siz botdan ro'yxatdan o'tganlingiz uchun *5* mediana coinga ega bo'ldingiz, ular orqali offline kurslarimizga chegirmalar olishingiz mumkin!")
+							await call.message.answer("🎉 Tabrilaymiz, siz botdan ro'yxatdan o'tganlingiz uchun *10* mediana coinga ega bo'ldingiz, ular orqali offline kurslarimizga chegirmalar olishingiz mumkin!")
 
 				await send_course_materials(user_id=user_id, call=call, course_name=data['course'])
 				await state.finish()
