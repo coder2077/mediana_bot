@@ -11,14 +11,13 @@ class Strings:
 	– Robototexnika;
 	– Dasturlash;
 	– Raqamli savodxonlik;
-	– Halol sarmoya kiritish;
-	– Animatsiya yaratish;
+	– 2D Animatsiya;
 	– Hamda English for IT yo'nalishlarida tahsil olishingiz mumkin.
 
 	❗️Zamonaviy kasblarni o'rganishni va yetuk kadr bo'lib yetishishni maqsad qilgan bo'lsangiz, hoziroq bizga murojaat qiling!
 
-	☎️ *+998972271813 
-	👨‍💻 @Jamoliddin_13
+	☎️ *+998770075511
+	👩‍💻 @mediana_admin
 	
     Mediana IT Academy – Ikki karra ko'proq!*
 	"""
