@@ -38,3 +38,8 @@ async def send_course_materials(user_id: int, call: types.CallbackQuery, course_
 			caption="Robototexnika kursi elektron darsligi.", 
 			reply_markup=reply.back_to_menu()
 		)
+
+	else:
+		await call.message.answer(
+			text="Tez orada bu kurslar to'ldiriladi..."
+		)
