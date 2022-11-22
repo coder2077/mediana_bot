@@ -25,7 +25,7 @@ async def callback_handler(call: types.CallbackQuery, repo: SQLAlchemyRepos, sta
 	if user:
 		text = call.data
 
-		if text in [Button.course_1, Button.course_2]:
+		if text in [Button.course_1]:
 			if user.registered == True:
 				status = await bot.get_chat_member(
 					chat_id=Config.tgbot.channel_username, 
@@ -59,6 +59,11 @@ async def callback_handler(call: types.CallbackQuery, repo: SQLAlchemyRepos, sta
 			await call.message.answer(
 				text=strings.main_menu, 
 				reply_markup=reply.menu()
+			)
+		
+		elif text in [Button.course_2, Button.course_3, Button.course_4, Button.course_5]:
+			await call.message.answer(
+				text="Tez orada bu kurslar to'ldiriladi..."
 			)
 
 	else:

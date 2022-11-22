@@ -8,6 +8,9 @@ def courses_menu():
 	markup.add(
 		InlineKeyboardButton(text=Button.course_1, callback_data=Button.course_1), 
 		InlineKeyboardButton(text=Button.course_2, callback_data=Button.course_2), 
+		InlineKeyboardButton(text=Button.course_3, callback_data=Button.course_3), 
+		InlineKeyboardButton(text=Button.course_4, callback_data=Button.course_4), 
+		InlineKeyboardButton(text=Button.course_5, callback_data=Button.course_5), 
 		InlineKeyboardButton(text=Button.back_to_menu, callback_data='back_to_menu'), 
 	)
 	return markup

@@ -82,6 +82,8 @@ class Button:
 
 
 	# INLINE:
-	course_1 = "Halol Sarmoya"
-	course_2 = "Robototexika Kursi"
-
+	course_1 = "Robototexika Kursi"
+	course_2 = "Raqamli savodxonlik"
+	course_3 = "Dasturlash"
+	course_4 = "2D Animatsiya"
+	course_5 = "English for IT"
